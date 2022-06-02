@@ -13,7 +13,7 @@
       </div>
       <div class="apartmentsInfo__status-item">
         <div>Класс:</div>
-        <div>{{ item.description }}</div>
+        <div>{{ item.description||'Не указан' }}</div>
       </div>
       <div class="apartmentsInfo__status-item">
         <div>Расположение:</div>
