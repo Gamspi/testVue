@@ -9,6 +9,9 @@ export function useController () {
   const autoplay = ref(true)
   const handelClose = () => {
     store.commit('apartments/setIsGallery', false)
+    setTimeout(() => {
+      store.commit('apartments/setGalleryImg', [])
+    }, 500)
   }
   return {
     images,
