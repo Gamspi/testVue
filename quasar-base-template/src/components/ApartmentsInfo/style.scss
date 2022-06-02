@@ -1,0 +1,68 @@
+.apartmentsInfo {
+  height: 240px;
+  width: 407px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #00D56A;
+
+  }
+
+  &__address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #01002C;
+  }
+
+  &__status {
+    height: 100px;
+    background: #F8F8FF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #01002C;
+
+    &-item {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      & div {
+        width: 200px;
+        text-align: center;
+      }
+    }
+  }
+
+  &__cost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #01002C;
+
+    button {
+      width: 200px;
+      height: 48px;
+      border-radius: 8px;
+    }
+  }
+}

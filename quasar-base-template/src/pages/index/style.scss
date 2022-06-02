@@ -1,0 +1,28 @@
+.IndexPage {
+  background: #E5E5E5;
+  background: url('src/assets/index.jpg') center no-repeat;
+  height: 1024px;
+  margin-top: -80px;
+  overflow: hidden;
+  z-index: -100;
+  &__section {
+    height: 581px;
+    position: relative;
+  }
+
+  &__content {
+    position: absolute;
+    width: 274px;
+    height: 98px;
+    left: 0;
+    bottom: 117px;
+  }
+  &__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  }
+}

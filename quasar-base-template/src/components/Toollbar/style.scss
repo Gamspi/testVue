@@ -1,0 +1,29 @@
+.my-toolbar {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0 1px 8px black;
+  border-radius: 0px 0px 8px 8px;
+  width: 100%;
+  z-index: 100;
+  &__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  &__logo{
+    margin-left: 15px;
+    width: 100px;
+    height: 36px;
+    background: url('src/assets/logo.svg') center no-repeat;
+    cursor: pointer;
+  }
+  &__buttons{
+    width: 434px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 58px;
+  }
+
+
+}

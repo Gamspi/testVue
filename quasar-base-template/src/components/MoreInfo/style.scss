@@ -1,0 +1,14 @@
+.moreInfo{
+  min-height: 200px;
+  width: 100%;
+  &__title,&__section{
+    display: flex;
+  }
+  &__label{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #00D56A;
+  }
+}

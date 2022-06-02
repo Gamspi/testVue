@@ -1,0 +1,28 @@
+.footer-grid{
+  &:not(:last-child){
+    margin-right: 220px;
+  }
+  &__title{
+    width: 136px;
+    height: 48px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+  }
+  &__link a{
+    width: 136px;
+    height: 48px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+}

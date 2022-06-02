@@ -1,0 +1,10 @@
+@import '/src/css/app.variables.scss';
+.MyGallery{
+  position: fixed;
+  background: rgba(0, 0, 0, 0.48);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: calc(var(--vh, 1vh) * 100);
+  z-index: 50000;
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "id": 10,
+    "name": "Апартаменты Томск Тверская №12",
+    "address": "Томск Тверская №12",
+    "sum": 2550,
+    "isPets": false,
+    "isKitchen": true,
+    "isWifi": false,
+    "bed": 1,
+    "bedroom": 1,
+    "coords": "57.000603, 86.172358",
+    "adults": 2,
+    "child": 0,
+    "description": "Шикарный комплекс",
+    "images": [
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/e93e6d3d-aaca-4d10-a596-a9dd4a05bda7"
+      },
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/75fd7d42-4db9-4d17-afdf-6eeec8490f9e"
+      }
+    ],
+    "hasWashingMachine": false,
+    "apartmentLocation": "Тестовые апартаменты",
+    "l1": 57.000603,
+    "l2": 86.172358,
+    "complexDescription": "Шикарный комплекс",
+    "wiFiName": null,
+    "wiFiPwd": null,
+    "checkIn": "14:00:00",
+    "checkOut": "11:00:00",
+    "floor": 0,
+    "hasFreeRooms": true
+  },
+  {
+    "id": 13,
+    "name": "Апартаменты Томск Киевская №93",
+    "address": "Томск Киевская №93",
+    "sum": 4675,
+    "isPets": false,
+    "isKitchen": true,
+    "isWifi": false,
+    "bed": 2,
+    "bedroom": 2,
+    "coords": "56.470141, 84.975201",
+    "adults": 3,
+    "child": 0,
+    "description": null,
+    "images": [
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/6ea080d5-d72d-4981-87f1-ff27af097814"
+      },
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/e93e6d3d-aaca-4d10-a596-a9dd4a05bda7"
+      },
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/6ea080d5-d72d-4981-87f1-ff27af097814"
+      },
+
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/31885f64-4d1a-4015-acfb-1168aba1cabe"
+      }
+    ],
+    "hasWashingMachine": false,
+    "apartmentLocation": "Апартаменты на Киевской, 93",
+    "l1": 56.470141,
+    "l2": 84.975201,
+    "complexDescription": null,
+    "wiFiName": null,
+    "wiFiPwd": null,
+    "checkIn": "14:00:00",
+    "checkOut": "12:00:00",
+    "floor": 0,
+    "hasFreeRooms": false
+  },  {
+    "id": 12,
+    "name": "Апартаменты Томск Тверская №12",
+    "address": "Томск Тверская №12",
+    "sum": 2550,
+    "isPets": false,
+    "isKitchen": true,
+    "isWifi": false,
+    "bed": 1,
+    "bedroom": 1,
+    "coords": "57.000603, 86.172358",
+    "adults": 2,
+    "child": 0,
+    "description": "Шикарный комплекс",
+    "images": [
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/75fd7d42-4db9-4d17-afdf-6eeec8490f9e"
+      },
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/e93e6d3d-aaca-4d10-a596-a9dd4a05bda7"
+      }
+    ],
+    "hasWashingMachine": false,
+    "apartmentLocation": "Тестовые апартаменты",
+    "l1": 57.000603,
+    "l2": 85.172358,
+    "complexDescription": "Шикарный комплекс",
+    "wiFiName": null,
+    "wiFiPwd": null,
+    "checkIn": "14:00:00",
+    "checkOut": "11:00:00",
+    "floor": 0,
+    "hasFreeRooms": true
+  },
+  {
+    "id": 14,
+    "name": "Апартаменты Томск Киевская №93",
+    "address": "Томск Киевская №93",
+    "sum": 4675,
+    "isPets": false,
+    "isKitchen": true,
+    "isWifi": false,
+    "bed": 2,
+    "bedroom": 2,
+    "coords": "56.470141, 84.975201",
+    "adults": 3,
+    "child": 0,
+    "description": null,
+    "images": [
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/31885f64-4d1a-4015-acfb-1168aba1cabe"
+      },
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/e93e6d3d-aaca-4d10-a596-a9dd4a05bda7"
+      },
+      {
+        "path": "https://testknokey.contek.ru/site/api/image/large/6ea080d5-d72d-4981-87f1-ff27af097814"
+      }
+
+    ],
+    "hasWashingMachine": false,
+    "apartmentLocation": "Апартаменты на Киевской, 93",
+    "l1": 54.470141,
+    "l2": 84.975201,
+    "complexDescription": null,
+    "wiFiName": null,
+    "wiFiPwd": null,
+    "checkIn": "14:00:00",
+    "checkOut": "12:00:00",
+    "floor": 0,
+    "hasFreeRooms": false
+  }
+]
