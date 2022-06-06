@@ -5,8 +5,9 @@ import LoadService from '../../services/LoadService'
 
 const actions: ActionTree<ApartmentsStateInterface, StateInterface> = {
 
-  async sfetchApartments ({ commit }):Promise<void> {
+  async fetchApartments ({ commit }):Promise<void> {
     commit('mutateIsLoading', true)
+
     await LoadService.apiRequest(('./apartments.json')).then(
       ({ data }) => {
         commit('mutateApartments', data)
@@ -16,6 +17,7 @@ const actions: ActionTree<ApartmentsStateInterface, StateInterface> = {
         commit('mutateIsLoading', false)
       })
   }
+
 }
 
 export default actions
