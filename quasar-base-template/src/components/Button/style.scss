@@ -1,3 +1,5 @@
+@import '/src/css/app.variables';
+
 .button{
    padding: 14px ;
   font-style: normal;
@@ -7,7 +9,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: $tWhite;
   max-width: 243px;
   border-radius: 8px;
 }
