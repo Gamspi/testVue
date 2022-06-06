@@ -1,9 +1,9 @@
 <template>
-  <div class="CardImages">
-    <div class="CardImages__body">
+  <div class="card-images">
+    <div class="card-images__body">
       <img v-for="image in images" :src="image.path"  alt="12" :key="image">
     </div>
-    <q-btn  icon="photo_camera" class="CardImages__button-gallery" @click="handleOpenGallery"/>
+    <q-btn  icon="photo_camera" class="card-images__button-gallery" @click="handleOpenGallery"/>
   </div>
 </template>
 

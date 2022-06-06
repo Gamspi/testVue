@@ -1,0 +1,46 @@
+@import '/src/css/app.variables';
+
+.footer {
+  background: $bgLightGray;
+  &__top {
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 363px;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 16px;
+      right: 16px;
+      bottom: 0;
+      border: 1px solid $bgLightGray;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    height: 80px;
+    align-items: center;
+
+  }
+  &__links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  &__link {
+    &:not(:last-child){
+      margin-right: 220px;
+
+    }
+
+    width: 136px;
+    a{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 15px;
+      color: $tBlack;
+    }
+  }
+}

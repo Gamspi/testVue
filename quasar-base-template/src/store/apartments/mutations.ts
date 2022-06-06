@@ -3,22 +3,22 @@ import { ApartmentsStateInterface } from './state'
 import { Apartment } from 'src/models/apartments'
 
 const mutation: MutationTree<ApartmentsStateInterface> = {
-  setIsLoading (state:ApartmentsStateInterface, payload:boolean) {
+  mutateIsLoading (state:ApartmentsStateInterface, payload:boolean) {
     state.isLoading = payload
   },
-  setIsGallery (state:ApartmentsStateInterface, payload:boolean) {
+  mutateIsGallery (state:ApartmentsStateInterface, payload:boolean) {
     state.isGallery = payload
   },
-  setGalleryImg (state:ApartmentsStateInterface, payload:{ 'path': string }[]) {
+  mutateGalleryImg (state:ApartmentsStateInterface, payload:{ 'path': string }[]) {
     state.galleryImg = payload
   },
-  setIsMoreInfo  (state:ApartmentsStateInterface, payload:boolean) {
+  mutateIsMoreInfo  (state:ApartmentsStateInterface, payload:boolean) {
     state.isMoreInfo = payload
   },
-  setApartments (state:ApartmentsStateInterface, payload:Apartment[]) {
+  mutateApartments (state:ApartmentsStateInterface, payload:Apartment[]) {
     state.apartments = payload
   },
-  setActiveApartment (state:ApartmentsStateInterface, payload:Apartment|null) {
+  mutateActiveApartment (state:ApartmentsStateInterface, payload:Apartment|null) {
     state.activeApartment = payload
   }
 }

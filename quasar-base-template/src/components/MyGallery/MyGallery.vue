@@ -1,6 +1,6 @@
 <template>
   <transition>
-  <div class="MyGallery" v-if="IsGallery">
+  <div class="my-gallery" v-if="IsGallery">
     <q-carousel
       swipeable
       animated

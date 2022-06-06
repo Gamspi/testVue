@@ -5,6 +5,13 @@ Axios.defaults.withCredentials = true
 export default class ApiService {
   public static ApiDomain = 'https://panda.dev.redramka.ru'
   public static FrontendDomain = 'https://panda.dev.redramka.ru'
+  public static testDomain = 'http://localhost:8080/'
+  public static ApiTest = (): AxiosInstance => {
+    const apiTest = Axios.create({
+      baseURL: ApiService.testDomain
+    })
+    return apiTest
+  }
 
   public static ApiClient = (): AxiosInstance => {
     const apiClient = Axios.create({

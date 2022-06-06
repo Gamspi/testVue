@@ -2,9 +2,10 @@
 $minContentWidth: 320px;
 
 /*   Font variables   */
-$fontpostfix: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+$fontpostfix: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Noto Sans, sans-serif;
 $Roboto: $fontpostfix;
 $Rub: 'Rub', $fontpostfix;
+$NotoSans: 'Noto Sans', sans-serif;
 
 
 /*   Color variables   */
@@ -12,7 +13,7 @@ $cWhite: #fff;
 $cBlack: #1D1D1D;
 $cGray: #EBEBF2;
 $cRed: #FF3B30;
-$cGreen: #39e8a5;
+$cGreen: #00D56A;
 
 /*   Form variables   */
 $fBorderColor: #E5E3EE;
@@ -25,9 +26,15 @@ $fFieldTextColor: #9A99A2;
 
 /*   Text variables   */
 $tGray: #9A99A2;
-$tBlack: #1D1D1D;
+$tBlack: #01002C;
+$tWhite: #FFFFFF;
+$tGreen: #00D56A;
+
 
 /*   Background variables   */
-$bgBlack: rgba(29, 29, 29, 0.84);
-$bgWhite: rgba(255, 255, 255, 0.5);
-$bgError: rgba(255, 58, 68, 0.1);
+$bgBlack: #000;
+$bgWhite: #fff;
+$bgGray: #c0c0c0;
+$bgLightGray: #F8F8FF;
+$bgGreyLL: #E5E5E5;
+

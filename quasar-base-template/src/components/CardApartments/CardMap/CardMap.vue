@@ -1,5 +1,5 @@
 <template>
-  <div class="CardMap" :id="id">
+  <div class="card-map" :id="id">
   </div>
 </template>
 

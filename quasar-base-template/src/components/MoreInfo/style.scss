@@ -1,3 +1,5 @@
+@import '/src/css/app.variables.scss';
+
 .moreInfo{
   min-height: 200px;
   width: 100%;
@@ -9,6 +11,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    color: #00D56A;
+    color: $tGreen;
   }
 }

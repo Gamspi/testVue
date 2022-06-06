@@ -1,11 +1,13 @@
+@import '/src/css/app.variables';
+
 .footer-grid{
+  margin-top: 15px;
   &:not(:last-child){
     margin-right: 220px;
   }
   &__title{
     width: 136px;
     height: 48px;
-    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -13,16 +15,20 @@
     display: flex;
     align-items: center;
   }
-  &__link a{
-    width: 136px;
+  &__link {
+    width: 100px;
     height: 48px;
-    font-family: 'Noto Sans';
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  a{
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+    color: $tBlack;
+
   }
 }
+

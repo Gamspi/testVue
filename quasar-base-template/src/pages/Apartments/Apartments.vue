@@ -1,6 +1,6 @@
 <template>
-  <div class="PageApartments">
-    <LoaderFetch v-if="IsApartmentLoading&&!IsGeneralLoading"/>
+  <div class="pageApartments">
+    <LoaderFetch v-if="IsApartmentLoading"/>
     <MyGallery/>
     <Transition>
       <Modal v-if="isMoreInfo" :on-close="handleCloseModal">
@@ -8,8 +8,8 @@
       </Modal>
     </Transition>
     <MyContainer>
-      <div class="PageApartments__content">
-        <div class="PageApartments__list">
+      <div class="pageApartments__content">
+        <div class="pageApartments__list">
           <TransitionGroup name="list">
             <CardApartments v-for="item in app" :item="item" :key="item.id"/>
           </TransitionGroup>
@@ -24,12 +24,12 @@
 import { defineComponent } from 'vue'
 import { useController } from './Controller'
 import CardApartments from 'components/CardApartments/CardApartments.vue'
-import MyContainer from 'components/container/container.vue'
+import MyContainer from 'components/MyContainer/MyContainer.vue'
 import LoaderFetch from 'components/LoaderFetch/LoaderFetch.vue'
 import MoreInfo from 'components/MoreInfo/MoreInfo.vue'
 import './style.scss'
-import MyGallery from 'components/gallery/gallery.vue'
-import Modal from 'components/modal/Modal.vue'
+import MyGallery from 'components/MyGallery/MyGallery.vue'
+import Modal from 'components/Modal/Modal.vue'
 
 export default defineComponent({
   name: 'PageApartments',
@@ -38,14 +38,12 @@ export default defineComponent({
     const {
       app,
       IsApartmentLoading,
-      IsGeneralLoading,
       isMoreInfo,
       handleCloseModal
     } = useController()
     return {
       app,
       IsApartmentLoading,
-      IsGeneralLoading,
       isMoreInfo,
       handleCloseModal
     }

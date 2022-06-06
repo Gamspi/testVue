@@ -10,7 +10,6 @@ export function useMap (coords:number[], id?:string, isMark?:boolean) {
           zoom: 13
         }
       )
-
       map.controls.remove('geolocationControl') // eslint-disable-line
       map.controls.remove('searchControl') // eslint-disable-line
       map.controls.remove('trafficControl') // eslint-disable-line

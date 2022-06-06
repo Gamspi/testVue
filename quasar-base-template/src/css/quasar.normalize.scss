@@ -1,7 +1,7 @@
 @import 'app.variables.scss';
 
 html body {
-  font-family: 'Noto Sans', sans-serif;;
+  font-family: $NotoSans;
   font-size: 14px;
   color: $cBlack;
   overflow-x: hidden;
@@ -62,7 +62,7 @@ a {
   }
 }
 
-/*   Reset button styles  */
+/*   Reset Button styles  */
 
 .disabled {
   pointer-events: none;

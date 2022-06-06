@@ -1,3 +1,5 @@
+@import '/src/css/app.variables';
+
 .apartmentsInfo {
   height: 240px;
   width: 407px;
@@ -11,8 +13,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color: #00D56A;
-
+    color: $cGreen;
+margin-right: 65px ;
   }
 
   &__address {
@@ -21,7 +23,7 @@
     font-size: 12px;
     line-height: 16px;
 
-    color: #01002C;
+    color: $tBlack;
   }
 
   &__status {
@@ -35,20 +37,18 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    color: #01002C;
+    color: $tBlack;
 
-    &-item {
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-
-      & div {
-        width: 200px;
-        text-align: center;
-      }
-    }
   }
-
+  &__item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  &__text{
+    width: 200px;
+    text-align: center;
+  }
   &__cost {
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    color: #01002C;
+    color: $tBlack;
 
     button {
       width: 200px;

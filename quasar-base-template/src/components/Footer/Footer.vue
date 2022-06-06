@@ -5,10 +5,10 @@
         <FooterGrid v-for="item in grid" :item="item" :key="item.title"/>
       </div>
       <div class="footer__bottom">
-        <div class="footer__logo">
-          Knokey 2021 ©
-        </div>
         <div class="footer__links">
+          <div class="footer__link">
+            Knokey 2021 ©
+          </div>
           <div class="footer__link">
             <router-link to="/">Конфиденциальность</router-link>
           </div>          <div class="footer__link">
@@ -25,8 +25,8 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import './style.scss'
-import FooterGrid from 'components/footerGrid/footerGrid.vue'
-import MyContainer from 'components/container/container.vue'
+import FooterGrid from 'components/Footer/FooterGrid/FooterGrid.vue'
+import MyContainer from 'components/MyContainer/MyContainer.vue'
 import { grid } from 'src/constants/constants'
 
 export default defineComponent({

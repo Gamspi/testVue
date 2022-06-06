@@ -4,8 +4,8 @@ import { Image } from 'src/models/apartments'
 export function useController (props:{ images:Image[] }) {
   const store = useStore()
   const handleOpenGallery = () => {
-    store.commit('apartments/setIsGallery', true)
-    store.commit('apartments/setGalleryImg', props.images)
+    store.commit('apartments/mutateIsGallery', true)
+    store.commit('apartments/mutateGalleryImg', props.images)
   }
   return {
     handleOpenGallery

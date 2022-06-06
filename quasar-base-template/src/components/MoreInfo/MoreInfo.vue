@@ -27,7 +27,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import './style.scss'
-import { useController } from './useController'
+import { useController } from './Controller'
 export default defineComponent({
   name: 'moreInfo',
   setup () {

@@ -3,7 +3,7 @@ export const grid = [
     title: 'О компании',
     links: [
       {
-        label: 'Как работает \n Knokey',
+        label: 'Как работает' + '\n' + 'Knokey',
         link: '/'
       }, {
         label: 'Пресс-центр',

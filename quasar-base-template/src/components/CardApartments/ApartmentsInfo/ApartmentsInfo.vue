@@ -7,17 +7,17 @@
       {{ item.address }}
     </div>
     <div class="apartmentsInfo__status">
-      <div class="apartmentsInfo__status-item">
-        <div>Занято номеров:</div>
-        <div>{{ countRooms }} / 200</div>
+      <div class="apartmentsInfo__item">
+        <div class="apartmentsInfo__text">Занято номеров:</div>
+        <div class="apartmentsInfo__text">{{ countRooms }} / 200</div>
       </div>
-      <div class="apartmentsInfo__status-item">
-        <div>Класс:</div>
-        <div>{{ item.description||'Не указан' }}</div>
+      <div class="apartmentsInfo__item">
+        <div  class="apartmentsInfo__text">Класс:</div>
+        <div class="apartmentsInfo__text">{{ item.description||'Не указан' }}</div>
       </div>
-      <div class="apartmentsInfo__status-item">
-        <div>Расположение:</div>
-        <div>{{ countDistance }} км от центра</div>
+      <div class="apartmentsInfo__item">
+        <div class="apartmentsInfo__text">Расположение:</div>
+        <div class="apartmentsInfo__text">{{ countDistance }} км от центра</div>
       </div>
     </div>
     <div class="apartmentsInfo__cost">
@@ -28,7 +28,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Button from 'components/button/Button.vue'
+import Button from 'components/Button/Button.vue'
 import './style.scss'
 import { useController } from './Controller'
 import { Apartment } from 'src/models/apartments'
@@ -48,6 +48,7 @@ export default defineComponent({
       countRooms,
       countDistance,
       handelOpenModalInfo
+
     }
   }
 

@@ -5,9 +5,9 @@
         <div class="my-toolbar__logo" @click="$router.push('/')">
         </div>
         <div class="my-toolbar__buttons">
-          <q-btn icon="language" label="Язык (RU)" stack  style="width: 100px" />
-          <q-btn icon="img:icons/rent.svg" label="Сдать жильё" stack />
-          <q-btn icon="login" label="Войти" stack   />
+          <q-btn icon="language" label="Язык (RU)" stack size="0.9em"/>
+          <q-btn icon="img:icons/rent.svg" label="Сдать жильё" stack size="0.9em"/>
+          <q-btn icon="login" label="Войти" stack  size="0.9em" />
         </div>
       </div>
     </MyContainer>
@@ -17,13 +17,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import './style.scss'
-import MyContainer from 'components/container/container.vue'
+import MyContainer from 'components/MyContainer/MyContainer.vue'
 
 export default defineComponent({
   components: {
     MyContainer
   },
-  name: 'PageIndex'
+  name: 'Toolbar'
 
 })
 </script>

@@ -5,9 +5,10 @@ export function useController (item:Apartment) {
   const store = useStore()
   const countRooms = Math.round(Math.random() * 200)
   const countDistance = (Math.random() * 15).toFixed(1)
+
   const handelOpenModalInfo = () => {
-    store.commit('apartments/setIsMoreInfo', true)
-    store.commit('apartments/setActiveApartment', item)
+    store.commit('apartments/mutateIsMoreInfo', true)
+    store.commit('apartments/mutateActiveApartment', item)
   }
   return {
     countRooms,

@@ -8,7 +8,7 @@ export default class GetService {
     Object.keys(data).forEach(element => {
       formData.append(element, String(data[element]))
     })
-    const result: ResponseType = await (await ApiService.ApiClient().get(`${url}`, { //eslint-disable-line
+    const result: ResponseType = await (await ApiService.ApiTest().get(`${url}`, { //eslint-disable-line
       params: data
     }).catch(
       err => { //eslint-disable-line

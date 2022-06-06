@@ -3,13 +3,13 @@ import { Apartment } from 'src/models/apartments'
 
 export function useController (props: { item:Apartment }) {
   const id = `ymap ${props.item.id}`
-  const toggle = ref(true)
+  const isShowInfo = ref(true)
   function handleToggle () {
-    toggle.value = !toggle.value
+    isShowInfo.value = !isShowInfo.value
   }
   return {
     id,
-    toggle,
+    isShowInfo,
     handleToggle
   }
 }

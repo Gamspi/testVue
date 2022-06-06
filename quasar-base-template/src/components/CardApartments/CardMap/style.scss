@@ -1,7 +1,8 @@
-.CardMap{
+@import '/src/css/app.variables';
+.card-map{
   width: 407px;
   height: 240px;
-  background: #c0c0c0;
+  background: $bgGray;
   border-radius: 8px;
 overflow: hidden;
 }

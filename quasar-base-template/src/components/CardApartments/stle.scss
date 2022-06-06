@@ -1,7 +1,8 @@
-.CardApartments {
+@import '/src/css/app.variables';
+.card-apartments {
   width: 1052px;
   height: 272px;
-  background: #FFFFFF;
+  background: $bgWhite;
   box-shadow: 3px 4px 4px rgba(1, 0, 44, 0.25);
   border-radius: 8px;
   padding: 16px 18px 16px 16px;
@@ -22,9 +23,9 @@ position: relative;
     width: 48px;
     height: 48px;
     border-radius: 8px;
-    background: #ffffff;
-    border: 2px solid #00D56A;
-color:#00D56A;
+    background: $bgWhite;
+    border: 2px solid $cGreen;
+    color: $cGreen;
 
   }
 }
