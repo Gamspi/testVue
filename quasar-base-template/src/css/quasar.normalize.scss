@@ -10,15 +10,13 @@ html body {
   min-width: $minContentWidth;
 }
 .q-page-container {
-  //position: fixed;
-  //top: 0;
-  //left: 0;
+
   width: 100vw;
   height: calc(var(--vh, 1vh) * 100);
   z-index: 50;
 }
 .main-container {
-  margin-top: 80px;
+  padding-top: 80px;
   min-width: $minContentWidth;
   height:100%
 }
