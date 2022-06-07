@@ -6,6 +6,7 @@
   margin-top: -80px;
 
   z-index: -100;
+
   &__section {
     height: 581px;
     position: relative;
@@ -18,7 +19,8 @@
     left: 0;
     bottom: 187px;
   }
-  &__title{
+
+  &__title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -26,8 +28,9 @@
     color: #FFFFFF;
     margin-bottom: 16px;
   }
-&__btn{
-  width: 243px;
-  height: 52px;
-}
+
+  &__btn {
+    width: 243px;
+    height: 52px;
+  }
 }
