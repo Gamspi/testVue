@@ -2,15 +2,25 @@
 
 .button {
   padding: 14px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
+
   display: flex;
   align-items: center;
   text-align: center;
-  color: $tWhite;
   width: 100%;
   border-radius: 8px;
   height: 100%;
+  &__label{
+
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: $tWhite;
+
+  }
+  &__label-small{
+      margin-right: 2px;
+      font-size: 15px;
+      line-height: 20px;
+  }
 }

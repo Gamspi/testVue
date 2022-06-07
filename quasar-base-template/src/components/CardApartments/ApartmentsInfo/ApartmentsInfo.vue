@@ -28,7 +28,7 @@
         от {{ item.sum.toLocaleString('ru-Ru') }} р. за 41 день
       </div>
       <div class="apartments-info__btn">
-        <Button text="Подробнее" @click="handelOpenModalInfo"/>
+        <Button text="Подробнее" @click="handelOpenModalInfo" isSmall/>
       </div>
     </div>
   </div></template>
