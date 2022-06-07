@@ -1,6 +1,6 @@
 <template>
   <q-btn :class="['button','', {'button--disabled': isDisabled}]" @click="clickHandler" :to="to" color="secondary">
-    {{ text }}
+    <span>{{ text }}</span>
   </q-btn>
 </template>
 

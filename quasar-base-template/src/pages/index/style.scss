@@ -16,7 +16,7 @@
     width: 300px;
     height: 98px;
     left: 0;
-    bottom: 185px;
+    bottom: 187px;
   }
   &__title{
     font-style: normal;
@@ -26,5 +26,10 @@
     color: #FFFFFF;
     margin-bottom: 16px;
   }
-
+&__btn{
+  width: 243px;
+  height: 52px;
+  background: #00D56A;
+  border-radius: 8px;
+}
 }

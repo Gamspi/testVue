@@ -1,7 +1,7 @@
 @import '/src/css/app.variables';
 
-.button{
-   padding: 14px ;
+.button {
+  padding: 14px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -10,6 +10,7 @@
   align-items: center;
   text-align: center;
   color: $tWhite;
-  max-width: 243px;
+  width: 100%;
   border-radius: 8px;
+  height: 100%;
 }

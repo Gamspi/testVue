@@ -5,8 +5,8 @@
         <FooterGrid v-for="item in grid" :item="item" :key="item.title"/>
       </div>
       <div class="footer__bottom">
-        <div class="footer__links">
-          <div class="footer__link">
+
+          <div class="footer__logo">
             Knokey 2021 ©
           </div>
           <div class="footer__link">
@@ -16,7 +16,7 @@
           </div>          <div class="footer__link">
           <router-link to="/">Язык: Русский (RU)</router-link>
           </div>
-        </div>
+
       </div>
     </MyContainer>
   </div>

@@ -1,8 +1,8 @@
 @import '/src/css/app.variables';
 
-.apartmentsInfo {
+.apartments-info {
   height: 240px;
-  width: 410px;
+  width: 412px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -12,14 +12,16 @@
     margin-right: 65px;
     overflow: hidden;
   }
-&__label{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: $cGreen;
-  margin-bottom: 5px;
-}
+
+  &__label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $cGreen;
+    margin-bottom: 5px;
+  }
+
   &__address {
     font-style: normal;
     font-weight: 400;
@@ -29,8 +31,9 @@
   }
 
   &__status {
-    height: 85px;
-    background: $tWhite;
+    padding: 10px 0;
+    height: 100px;
+    background: #F8F8FF;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -66,10 +69,23 @@
     line-height: 19px;
     color: $tBlack;
 
-    button {
-      width: 203px;
-      height: 48px;
-      border-radius: 8px;
+
+  }
+
+  &__btn {
+    width: 204px;
+    height: 48px;
+    border-radius: 8px;
+
+    span {
+      margin-right: 2px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+
+      color: #FFFFFF;
     }
   }
 }

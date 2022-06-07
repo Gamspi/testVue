@@ -1,24 +1,24 @@
 <template>
-  <div class="moreInfo">
-    <div class="moreInfo__title">
-      <div class="moreInfo__label">Название:&nbsp;</div>
-      <div class="moreInfo__text">{{activeApartment.name}}</div> </div>
-    <div class="moreInfo__about">
-      <div class="moreInfo__section">
-        <div class="moreInfo__label">ID:&nbsp;</div>
-        <div class="moreInfo__text">{{activeApartment.id}}</div>
+  <div class="more-info">
+    <div class="more-info__title">
+      <div class="more-info__label">Название:&nbsp;</div>
+      <div class="more-info__text">{{activeApartment.name}}</div> </div>
+    <div class="more-info__about">
+      <div class="more-info__section">
+        <div class="more-info__label">ID:&nbsp;</div>
+        <div class="more-info__text">{{activeApartment.id}}</div>
       </div>
-      <div class="moreInfo__section">
-        <div class="moreInfo__label">Адресс:&nbsp;</div>
-        <div class="moreInfo__text">{{activeApartment.address}}</div>
+      <div class="more-info__section">
+        <div class="more-info__label">Адресс:&nbsp;</div>
+        <div class="more-info__text">{{activeApartment.address}}</div>
       </div>
-      <div class="moreInfo__section">
-        <div class="moreInfo__label">Регистрироваться:&nbsp;</div>
-        <div class="moreInfo__text">{{activeApartment.checkIn}}</div>
+      <div class="more-info__section">
+        <div class="more-info__label">Регистрироваться:&nbsp;</div>
+        <div class="more-info__text">{{activeApartment.checkIn}}</div>
       </div>
-      <div class="moreInfo__section">
-        <div class="moreInfo__label">Окончание регистрации:&nbsp;</div>
-        <div class="moreInfo__text">{{activeApartment.checkOut}}</div>
+      <div class="more-info__section">
+        <div class="more-info__label">Окончание регистрации:&nbsp;</div>
+        <div class="more-info__text">{{activeApartment.checkOut}}</div>
       </div>
     </div>
   </div>

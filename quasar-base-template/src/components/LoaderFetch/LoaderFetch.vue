@@ -1,6 +1,6 @@
 <template>
-  <div class="loaderFetch">
-    <div class="loaderFetch__text">Я загружаю информацию ....</div>
+  <div class="loader-fetch">
+    <div class="loader-fetch__text">Я загружаю информацию ....</div>
     <q-spinner
       color="secondary"
       size="5.5em"

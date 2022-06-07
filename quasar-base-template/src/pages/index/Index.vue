@@ -4,7 +4,9 @@
           <section class="indexPage__section">
             <div class="indexPage__content" >
               <div class="indexPage__title" >Найти жильё рядом просто!</div>
-              <Button class="indexPage__btn" text="Показать список" to="/apartments" />
+              <div class="indexPage__btn">
+                <Button class="indexPage__btn" text="Показать список" to="/apartments" />
+              </div>
             </div>
           </section>
         </MyContainer>
