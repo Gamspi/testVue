@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-page-container class="j-fixed-element">
       <Loader v-if="IsGeneralLoading" />
-      <toollbar/>
+      <Toolbar/>
       <div class="main-container">
         <router-view v-slot="{ Component }">
           <component :is="Component" :key="Component.name"/>
@@ -17,11 +17,11 @@
 import { defineComponent, onMounted } from 'vue'
 import Loader from 'components/Loader/Loader.vue'
 import useController from './controller'
-import Toollbar from 'components/Toolbar/ToolBar.vue'
+import Toolbar from 'components/Toolbar/ToolBar.vue'
 
 export default defineComponent({
   name: 'MainLayout',
-  components: { Toollbar, Loader },
+  components: { Toolbar, Loader },
   setup () {
     const {
       IsGeneralLoading,

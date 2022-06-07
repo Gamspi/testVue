@@ -2,32 +2,34 @@
 
 .apartmentsInfo {
   height: 240px;
-  width: 407px;
+  width: 410px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   &__title {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    color: $cGreen;
-margin-right: 65px ;
+    margin-right: 65px;
+    overflow: hidden;
   }
-
+&__label{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: $cGreen;
+  margin-bottom: 5px;
+}
   &__address {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-
     color: $tBlack;
   }
 
   &__status {
-    height: 100px;
+    height: 85px;
     background: $tWhite;
     border-radius: 8px;
     display: flex;
@@ -40,16 +42,21 @@ margin-right: 65px ;
     color: $tBlack;
 
   }
+
   &__item {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    overflow: hidden;
   }
-  &__text{
+
+  &__text {
     width: 200px;
     text-align: center;
   }
-  &__cost {
+
+  &__footer {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +67,7 @@ margin-right: 65px ;
     color: $tBlack;
 
     button {
-      width: 200px;
+      width: 203px;
       height: 48px;
       border-radius: 8px;
     }

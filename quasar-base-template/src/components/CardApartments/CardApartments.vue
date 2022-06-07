@@ -8,8 +8,8 @@
     </div>
     <CardMap v-else :id="id" :coords="[item.l1,item.l2]"/>
     <transition>
-    <q-btn color="secondary" :icon="isShowInfo?'place':'highlight_off'" class="card-apartments__toggle-map" @click="handleToggle" v-if="isShowInfo"/>
-    <q-btn  icon="highlight_off" class="card-apartments__toggle-map" @click="handleToggle" v-else />
+    <q-btn color="secondary" :icon="isShowInfo?'img:icons/location.svg':'cancel'" class="card-apartments__toggle-map" @click="handleToggle" v-if="isShowInfo"/>
+    <q-btn  icon="cancel" class="card-apartments__toggle-map" @click="handleToggle" v-else />
     </transition>
   </div>
 </template>

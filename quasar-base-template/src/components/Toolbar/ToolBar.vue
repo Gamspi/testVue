@@ -6,7 +6,7 @@
         </div>
         <div class="my-toolbar__buttons">
           <q-btn icon="language" label="Язык (RU)" stack size="0.9em"/>
-          <q-btn icon="img:icons/rent.svg" label="Сдать жильё" stack size="0.9em"/>
+          <q-btn icon="img:icons/rent.svg" label="Сдать жильё" stack size="0.8em"/>
           <q-btn icon="login" label="Войти" stack  size="0.9em" />
         </div>
       </div>

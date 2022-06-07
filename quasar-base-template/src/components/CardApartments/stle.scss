@@ -1,14 +1,17 @@
 @import '/src/css/app.variables';
+
 .card-apartments {
   width: 1052px;
   height: 272px;
   background: $bgWhite;
   box-shadow: 3px 4px 4px rgba(1, 0, 44, 0.25);
   border-radius: 8px;
-  padding: 16px 18px 16px 16px;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
-position: relative;
+  position: relative;
+  overflow: hidden;
+
   &:not(:last-child) {
     margin-bottom: 16px;
   }
@@ -16,7 +19,8 @@ position: relative;
   &__info {
 
   }
-  &__toggle-map{
+
+  &__toggle-map {
     position: absolute;
     top: 16px;
     right: 18px;

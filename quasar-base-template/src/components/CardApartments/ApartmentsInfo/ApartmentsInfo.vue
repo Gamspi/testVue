@@ -1,11 +1,15 @@
 <template>
   <div class="apartmentsInfo">
     <div class="apartmentsInfo__title">
-      {{ item.name }}
+      <div class="apartmentsInfo__label">
+        {{ item.name }}
+
+      </div>
+      <div class="apartmentsInfo__address">
+        {{ item.address }}
+      </div>
     </div>
-    <div class="apartmentsInfo__address">
-      {{ item.address }}
-    </div>
+
     <div class="apartmentsInfo__status">
       <div class="apartmentsInfo__item">
         <div class="apartmentsInfo__text">Занято номеров:</div>
@@ -20,8 +24,9 @@
         <div class="apartmentsInfo__text">{{ countDistance }} км от центра</div>
       </div>
     </div>
-    <div class="apartmentsInfo__cost">
-      <div>от {{ item.sum }} р. за 41 день</div>
+    <div class="apartmentsInfo__footer">
+      <div class="apartmentsInfo__cost">
+        от {{ item.sum.toLocaleString('ru-Ru') }} р. за 41 день</div>
       <Button text="Подробнее" @click="handelOpenModalInfo"/>
     </div>
   </div></template>

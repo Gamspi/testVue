@@ -8,8 +8,8 @@ const actions: ActionTree<ApartmentsStateInterface, StateInterface> = {
   async fetchApartments ({ commit }):Promise<void> {
     commit('mutateIsLoading', true)
 
-    await LoadService.apiRequest(('./apartments.json')).then(
-      ({ data }) => {
+    await LoadService.apiRequest('').then(
+      (data) => {
         commit('mutateApartments', data)
       }
     )
